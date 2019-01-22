@@ -1,0 +1,1 @@
+We need to read a file content in process1, send file contents to process2 using shared memory and print the content in process2..
