@@ -1,0 +1,5 @@
+		/// SCHOOL OF LINUX ///
+
+concept : :
+
+	we need to open a .mp3 file from P1, send the content to P2 using FIFOand save mp3 with different file, then play and check the .mp3 is played well.
