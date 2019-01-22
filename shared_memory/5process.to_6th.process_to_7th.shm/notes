@@ -1,0 +1,13 @@
+///SCHOOL OF LINUX///
+
+
+Concept ::
+
+	We need to create 5 process p1, p2, p3, p4 and p5, send data through msg queue from p1, p2, p3, p4, p5, to process P6.
+	Then collect all the messages in P6, send it to P7 using shared memory and save the content into a file in P7.
+
+
+notes  ::
+	
+	While compiling a posix message related system calls (like as mq_open,mq_send..), use the following command
+	gcc file name	-lrt	//-lrt	"it include a rt library"...
