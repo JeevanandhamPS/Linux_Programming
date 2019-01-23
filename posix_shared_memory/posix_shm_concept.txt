@@ -1,0 +1,3 @@
+We need to implement a posix shared memory..
+
+share some text content by using posix shared memory..

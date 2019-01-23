@@ -9,22 +9,14 @@
  *				      *	
  *  Author	: Jeevanandham.P.S    *
  *  Date	: 23-01-2019  	      *
- *  Filename	: receive.c	      *
+ *  Filename	: shm_receive.c	      *
  *  Description	: Explains	      *
  *		  POSIX shared memory *
  *				      *
 \**************************************/
 
 
-
-#include <stdio.h>
-#include <string.h>
-#include <sys/mman.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <sys/types.h>
-#include <unistd.h>
-#include <error.h>
+#include "pxshm.h"
 
 int main()
 {

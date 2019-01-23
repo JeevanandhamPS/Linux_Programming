@@ -9,22 +9,14 @@
   *                                    * 
   *  Author      : Jeevanandham.P.S    *
   *  Date        : 23-01-2019          *
-  *  Filename    : send.c              *
+  *  Filename    : shm_send.c          *
   *  Description : Explains            *
   *                POSIX shared memory *
   *                                    *
  \**************************************/
 
 
-
-#include <string.h>
-#include <sys/mman.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <sys/types.h>
-#include <unistd.h>
-#include <error.h>
-#include <stdio.h>
+#include "pxshm.h"
 
 unsigned char str[] = "POSIX shared memory as working sucessfully";
 
