@@ -1,7 +1,7 @@
 /***************************************/
-/* Author	: Jeevanandham.P.S     */
-/* Date		: 23jan2019            */
-/* Filename	: pxshm.h              */
+/* Author	      : Jeevanandham.P.S     */
+/* Date		      : 23jan2019            */
+/* Filename	    : shmreceive.h         */
 /* Description	: header files         */
 /***************************************/
 
