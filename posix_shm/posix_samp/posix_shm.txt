@@ -1,0 +1,12 @@
+
+/***************************************/
+/* Author	: Jeevanandham.P.S     */
+/* Date		: 23jan2019            */
+/* Filename	: posix_shm            */
+/* Description	: Explains  posix_shm  */
+/***************************************/
+
+POSIX standard as portable to all operating systems, POSIX shared memory as possible to do in all OS.
+
+We need to share a text content by using the POSIX shared memory. We used a virtual address to share the memory.
+system calls shm_open(),shm_unlink(),mmap(),munmap() are used.
