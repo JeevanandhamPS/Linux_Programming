@@ -1,7 +1,7 @@
 /***************************************/
-/* Author	: Jeevanandham.P.S           */
-/* Date		: 23jan2019                  */
-/* Filename	: shmsend.h                */
+/* Author     	: Jeevanandham.P.S     */
+/* Date	      	: 23jan2019            */
+/* Filename	    : shmsend.h            */
 /* Description	: header files         */
 /***************************************/
 
