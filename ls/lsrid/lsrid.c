@@ -1,5 +1,3 @@
-
-
 /***************************************/
 /* Author       : Jeevanandham.P.S     */
 /* Date         : 24jan2019            */
@@ -7,10 +5,13 @@
 /* Description  : ls command 	       */
 /***************************************/
 
-
-
+/* Included header files */
 #include "lsrid.h"
 
+/* Global variable definitions */
+
+
+/* function definitions */
 int main(int argc, char *argv[])
 {
   //RD1
