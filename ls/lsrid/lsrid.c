@@ -15,8 +15,6 @@
 int main(int argc, char *argv[])
 {
   //RID1
-	//While compiling, make executable file named as my_ls "gcc file -o my_ls"	
-
 	DIR *fd,*fd1; //DIR datatype represents a data stream
 	struct dirent *reddr,*reddr1;//inode_no. directory_name serial_no. na    me_of_entry placed in dirent structure
 
@@ -30,8 +28,6 @@ int main(int argc, char *argv[])
 	//Check whether user passed an argument or not
 
   //RID2 
-	//if my_ls executing without parameters,list the current directory
-
 	//if argument passed, Display the current directory list
  	if(argc==1)
 	{
@@ -63,7 +59,6 @@ int main(int argc, char *argv[])
 		while(reddr != NULL)
 		{
   //RID3
-	//Executing my_ls with one parameter has to check whether the parameter is a directory..
 			if(strcmp(reddr->d_name,argv[1])==0)  //comaparing the passed argument with current directory files..
 			{
  				
@@ -74,8 +69,6 @@ int main(int argc, char *argv[])
 					fd1 = opendir(argv[1]); //open the directory(passed argument)
 					perror("opendir");
   //RID4
-	//if the passed arugument is directory, read the contents of that directory and list it..
-
 					reddr1 = readdir(fd1); //read the opened directory
 					perror("readdir");
 					
