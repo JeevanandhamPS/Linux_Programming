@@ -3,7 +3,7 @@
 /* Author	: Jeevanandham.P.S     */
 /* Date		: 23jan2019            */
 /* Filename	: shmsend.c            */
-/* Description	: posix_shm receive    */
+/* Description	: posix_shm send       */
 /***************************************/
 
 
