@@ -1,0 +1,13 @@
+
+
+/***************************************/
+/* Author       : Jeevanandham.P.S     */
+/* Date         : 24jan2019            */
+/* Filename     : ls.txt               */
+/* Description  : explain ls	       */
+/***************************************/
+
+
+ ls - list directory contents
+ List  information  about  the files in the current directory
+ ls.c as well give list of the files in the current directory (where we execute) by the unsorting format..

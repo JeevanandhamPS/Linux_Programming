@@ -1,0 +1,19 @@
+
+
+/***************************************/
+/* Author       : Jeevanandham.P.S     */
+/* Date         : 24jan2019            */
+/* Filename     : ls.txt               */
+/* Description  : explain ls	       */
+/***************************************/
+
+
+ ls - list directory contents
+ List  information  about  the files in the current directory
+
+ Recuirements
+ 	
+	RD1 : Name your executable as my_ls 
+	RD2 : Executing my_ls without parameters has to take the listing directory as current directory.
+	RD3 : Executing my_ls with one argument has to check wether the passed argument is a directory.
+	RD4 : Executing my_ls with one argument has to read the directory contents and display the list of files and directory mentioned in the directory mentioned in the argument.
