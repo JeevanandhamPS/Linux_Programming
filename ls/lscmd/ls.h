@@ -2,7 +2,7 @@
 /* Author       : Jeevanandham.P.S     */
 /* Date         : 24jan2019            */
 /* Filename     : ls.h                 */
-/* Description  : ls command sample    */
+/* Description  : header files         */
 /***************************************/
 
 
