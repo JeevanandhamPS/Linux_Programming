@@ -1,6 +1,3 @@
-
-
-
 /***************************************/
 /* Author       : Jeevanandham.P.S     */
 /* Date         : 24jan2019            */
@@ -9,9 +6,13 @@
 /***************************************/
 
 
-
+/* Included header file */
 #include "ls.h"
 
+/* Global variable definitions */
+
+
+/* function definitions*/
 int main()
 {
 	DIR *fd; //DIR datatype represents a data stream

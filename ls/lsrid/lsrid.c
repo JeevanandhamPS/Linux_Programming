@@ -1,5 +1,3 @@
-
-
 /***************************************/
 /* Author       : Jeevanandham.P.S     */
 /* Date         : 24jan2019            */
@@ -7,15 +5,17 @@
 /* Description  : ls command 	       */
 /***************************************/
 
-
-
+/* Included header files */
 #include "lsrid.h"
 
+/* Global variable definitions */
+
+
+/* function definitions */
 int main(int argc, char *argv[])
 {
-  //RD1
-	//While compiling, make executable file named as my_ls "gcc file -o my_ls"	
-
+  //RID1
+	// Name your executable as my_ls
 	DIR *fd,*fd1; //DIR datatype represents a data stream
 	struct dirent *reddr,*reddr1;//inode_no. directory_name serial_no. na    me_of_entry placed in dirent structure
 
@@ -28,9 +28,8 @@ int main(int argc, char *argv[])
 
 	//Check whether user passed an argument or not
 
-  //RD2 
-	//if my_ls executing without parameters,list the current directory
-
+  //RID2 
+	 //Executing my_ls without parameters has to take the listing directory as current directory.
 	//if argument passed, Display the current directory list
  	if(argc==1)
 	{
@@ -61,8 +60,8 @@ int main(int argc, char *argv[])
 		//if readdir returns NULL pointer, That is end of the directory entry.
 		while(reddr != NULL)
 		{
-  //RD3
-	//Executing my_ls with one parameter has to check whether the parameter is a directory..
+  //RID3
+	//Executing my_ls with one argument has to check wether the passed argument is a directory.
 			if(strcmp(reddr->d_name,argv[1])==0)  //comaparing the passed argument with current directory files..
 			{
  				
@@ -72,9 +71,8 @@ int main(int argc, char *argv[])
 					printf("Yeah %s is a directory\n",reddr->d_name);
 					fd1 = opendir(argv[1]); //open the directory(passed argument)
 					perror("opendir");
-  //RD4
-	//if the passed arugument is directory, read the contents of that directory and list it..
-
+  //RID4
+	//Executing my_ls with one argument has to read the directory contents and display the list of files and directory mentioned in the directory mentioned in the argument.
 					reddr1 = readdir(fd1); //read the opened directory
 					perror("readdir");
 					
