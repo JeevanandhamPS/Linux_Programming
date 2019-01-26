@@ -1,0 +1,20 @@
+/***************************************/
+/* Author       : Jeevanandham.P.S     */
+/* Date         : 24jan2019            */
+/* Filename     : list.txt             */
+/* Description  : explain ls	       */
+/***************************************/
+
+
+ ls - list the information about the file or directory
+ List  information  about  the files according to the file or directory  address 
+
+ Recuirements
+ 	
+	RID1 : While compiling, make executable file named as my_ls "gcc file -o my_ls"	
+	RID2 : If my_ls executing without parameters,list the current directory.
+	RID3 : Executing my_ls with one parameter has to check whether the parameter is a directory.
+	RID4 : If the passed arugument is directory, read the contents of that directory and list it.
+	RID5 : After getting file names, sort the names and print it..
+	RID6 : If passed argument is not directory, find the argument is another file format.
+	RID7 : If passed argument available, display the proper list or display error message.
