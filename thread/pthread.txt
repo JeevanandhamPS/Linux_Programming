@@ -1,0 +1,8 @@
+/***************************************/
+/* Author	: Jeevanandham.P.S     */
+/* Date		: 5-feb-2019	       */
+/* Filename	: pthread.txt          */
+/* Description	: working of thread    */
+/***************************************/
+
+	Thread is create for reduce the working load of the processor, we will make one thread and watch the thread how it's is working..
