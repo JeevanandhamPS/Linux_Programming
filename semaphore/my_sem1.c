@@ -1,6 +1,6 @@
 /***************************************/
 /* Author	: Jeevanandham.P.S     */
-/* Date		: 30jan2019 	       */
+/* Date		: 01feb2019 	       */
 /* Filename	: my_sem1.c            */
 /* Description	: semaphore            */
 /***************************************/
