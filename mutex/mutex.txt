@@ -1,0 +1,12 @@
+/************************************************/
+/* Author	: Jeevanandham.P.S     		*/
+/* Date		: 6-feb-2019	       		*/
+/* Filename	: mutex.txt            		*/
+/* Description	: thread working with mutex     */
+/************************************************/
+
+	A mutex has two states:
+       		locked and unlocked.
+	If thread as locked, another thread can't able to access the same memory, After finishing our work we can unlock the mutex.
+	lock   : pthread_mutex_lock();
+	unlock : pthread_mutex_unlock();
