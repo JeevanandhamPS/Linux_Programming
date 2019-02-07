@@ -21,4 +21,4 @@ void *thread_fun(void *);
 
 /* user defined datatype definitions */
 
-#endif //MUTEX
+#endif //MUTEX_H
