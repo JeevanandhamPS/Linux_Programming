@@ -14,13 +14,12 @@
 
 /* function definitions */
  
-int main()
+int main(int argc, char *argv[])
 {
 	int soc_ket;
 	struct sockaddr_in socketaddr;
 	unsigned char str1[]="message from client by IPV4 SOCKET";
 
-	unsigned char ip_addr[] = "192.168.43.208";
 	socklen_t length = sizeof(struct sockaddr_in);
 
 	//open a new socket, with DGRAM type protocol
@@ -31,8 +30,8 @@ int main()
 	
 	//update the values to the struct
 	socketaddr.sin_family =AF_INET;
-	socketaddr.sin_port  = htons(8080);
-	unsigned int ip = inet_pton(AF_INET,ip_addr,&socketaddr.sin_addr);
+	socketaddr.sin_port  = htons(atoi(argv[1]));
+	unsigned int ip = inet_pton(AF_INET,argv[2],&socketaddr.sin_addr);
   
 	//send a msg to server..
 	sendto(soc_ket, str1,strlen(str1)+1, 0,(struct sockaddr *)&socketaddr, sizeof(socketaddr));
