@@ -33,7 +33,7 @@ int main(int argc,char *argv[])
 	perror("socket");
 
 	//update the values to the struct
-	socketaddr.sin_family =AF_INET; //address family (AF_INET) for IPv4
+	socketaddr.sin_family =AF_INET; //address family (AF_INET) for ipv4
 	socketaddr.sin_port  = htons(atoi(argv[1]));// htons returns host_uint16 convert to network byte order
 	unsigned int ip = inet_pton(AF_INET,argv[2],&socketaddr.sin_addr);//inet_pton() function converts the presentation string contained in src_str into a	binary IP address in network byte order...
   
