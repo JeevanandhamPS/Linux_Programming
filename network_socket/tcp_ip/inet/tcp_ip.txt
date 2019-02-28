@@ -1,0 +1,8 @@
+/***********************************************/
+/* Author	: Jeevanandham.P.S             */
+/* Date		: 27-feb-2019                  */
+/* Filename	: tcp_ip.txt                   */
+/* Description	: Explains the tcp_ip in inet  */
+/***********************************************/
+
+To create a TCP/IP socket, Send a message from client to server using internet (AF_INET), and print the received message on stdout in server side.
