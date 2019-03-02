@@ -23,7 +23,6 @@
 #include <arpa/inet.h>
 #include <ctype.h>
 #include <stdlib.h>
-#include <pthread.h>
 
 
 /* Macro Definitions */
@@ -31,4 +30,3 @@
 /* user defined datatype definitions */
 
 #endif //TCP_IP_SERVER_H
-
