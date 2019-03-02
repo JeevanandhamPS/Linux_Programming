@@ -1,0 +1,8 @@
+/****************************************/
+/* Author	: Jeevanandham.P.S      */
+/* Date		: 01-mar-2019           */
+/* Filename	: private_chat.c        */
+/* Description	: socket sample program */
+/****************************************/
+
+	To create a TCP socket, connect server and client via internet, chat together, until exit message from the client side.
