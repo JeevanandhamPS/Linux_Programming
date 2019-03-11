@@ -1,0 +1,47 @@
+/*********************************************/
+/* Author	: Jeevanandham P S           */
+/* Date		: 1-mar-2019                 */
+/* Filename	: basic_info.txt             */
+/* Description	: basic information about PC */
+/*********************************************/
+
+To create a custom command for Display the basic information of computer, cammand called basic_info.
+
+NAME
+	basic_info - Display the basic information of the computer.
+
+SYNOPSIS
+	basic_info [OPTION]...
+
+DESCRIPTION
+	Display information about the computer (like OS, RAM, ROM, CPU).
+
+	Mandatory arguments to long options are mandatory for short options too.
+
+	-a, --all
+		Display the entire following options.
+
+	-b, --battery
+		Display the information about the battery.
+	
+	-c, --CPU
+		Display the information about the CPU.
+
+	-m, --memory
+		Display the detail view of the Disk partition's and RAM size
+
+	-o, --Operating systems
+		Display the details of Current running OS.
+
+	-h, --help
+		Display the options in basic_info.
+
+REPORTING BUGS
+	git : <https://github.com/JeevanandhamPS>
+
+NOTES
+	While executing this command with the following arguments, user must as a root.
+
+		* basic_info -m
+
+		* basic_info -a
