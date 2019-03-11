@@ -1,12 +1,12 @@
 /****************************************/
-/* Author	: Jeevanandham.P.S      */
-/* Date		: 27-feb-2019           */
-/* Filename	: tcp_ip_server.h       */
+/* Author	: Jeevanandham.P.S            */
+/* Date		: 27-feb-2019                 */
+/* Filename	: tcp_server.h              */
 /* Description	: socket sample program */
 /****************************************/
 
-#ifndef TCP_IP_SERVER_H
-#define TCP_IP_SERVER_H
+#ifndef TCP_SERVER_H
+#define TCP_SERVER_H
 
 
 /* Included header files */
@@ -30,5 +30,4 @@
 
 /* user defined datatype definitions */
 
-#endif //TCP_IP_SERVER_H
-
+#endif //TCP_SERVER_H

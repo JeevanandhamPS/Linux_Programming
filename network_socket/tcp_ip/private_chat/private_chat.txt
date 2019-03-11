@@ -1,7 +1,7 @@
 /****************************************/
 /* Author	: Jeevanandham.P.S      */
 /* Date		: 01-mar-2019           */
-/* Filename	: private_chat.c        */
+/* Filename	: private_chat.txt      */
 /* Description	: socket sample program */
 /****************************************/
 

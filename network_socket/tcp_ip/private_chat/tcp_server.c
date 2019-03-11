@@ -1,9 +1,9 @@
-/****************************************/
-/* Author	: Jeevanandham.P.S      */
-/* Date		: 27-feb-2019           */
-/* Filename	: tcp_server.c          */
-/* Description	: socket sample program */
-/****************************************/
+/***********************************************/
+/* Author	: Jeevanandham.P.S             */
+/* Date		: 01-mar-2019                  */
+/* Filename	: tcp_server.c                 */
+/* Description	: private chat client & server */
+/***********************************************/
 
 /* Included header file */
 
