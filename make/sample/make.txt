@@ -1,0 +1,8 @@
+/***************************************/
+/* Author	: Jeevanandham P S     */
+/* Date		: 14-mar-2019          */
+/* Filename	: make.txt             */
+/* Description	: sample make file     */
+/***************************************/
+
+To create a make file for reduce the compilation time, To compile more than one file by using Makefile, and check the .o files and executable file, then execute and check the process working correct or not.
