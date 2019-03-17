@@ -1,12 +1,12 @@
 /****************************************/
 /* Author	: Jeevanandham.P.S      */
-/* Date		: 17-feb-2019           */
-/* Filename	: ipv4_server.h         */
+/* Date		: 22-feb-2019           */
+/* Filename	: server.h              */
 /* Description	: socket sample program */
 /****************************************/
 
-#ifndef IPV4_SERVER_H
-#define IPV4_SERVER_H
+#ifndef SERVER_H
+#define SERVER_H
 
 
 /* Included header files */
@@ -28,4 +28,4 @@
 
 /* user defined datatype definitions */
 
-#endif //IPV4_SERVER_H
+#endif //SERVER_H
