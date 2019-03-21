@@ -1,0 +1,8 @@
+/*********************************************/
+/* Author	: Jeevanandham.P.S           */
+/* Date		: 22-feb-2019                */
+/* Filename	: group_chat.txt             */
+/* Description	: group chat serverprogram   */
+/*********************************************/
+
+To create a socket, connect multiple clients to the single server via inet socket, server and clients chat with all clients and server.
