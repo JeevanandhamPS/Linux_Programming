@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 {
 	int soc_ket;
 	struct sockaddr_in socketaddr;
-	unsigned char str1[]="message from client by IPV4 SOCKET";
+	unsigned char str1[]="message from client by IPV4 SOCKET", str2[200];
 
 	socklen_t length = sizeof(struct sockaddr_in);
 
@@ -35,9 +35,13 @@ int main(int argc, char *argv[])
   
 	//send a msg to server..
 	sendto(soc_ket, str1,strlen(str1)+1, 0,(struct sockaddr *)&socketaddr, sizeof(socketaddr));
-	perror("sendto");
-	
+	perror("sendto");	
 	sleep(2);
+	
+	recvfrom(soc_ket, str2,100, 0,(struct sockaddr *)&socketaddr, &length);
+	perror("recvfrom");
 
+	printf("%s\n",str2);
+	
 	close(soc_ket);
 }
