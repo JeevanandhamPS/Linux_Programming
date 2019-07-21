@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 {
 	int soc_ket;
 	struct sockaddr_in socketaddr;
-	unsigned char str1[200];
+	unsigned char str1[200], str2[] = "Message from server";
 
 	socklen_t length = sizeof(struct sockaddr_in);
 
@@ -38,9 +38,12 @@ int main(int argc, char *argv[])
   
 	//receive a msg from client..
 	recvfrom(soc_ket, str1,100, 0,(struct sockaddr *)&socketaddr, &length);
-	perror("sendto");
+	perror("recvfrom");
 	
 	printf("%s\n",str1);
+	
+	sendto(soc_ket, str2,strlen(str2)+1, 0,(struct sockaddr *)&socketaddr, sizeof(socketaddr));
+	perror("sendto");
 
 	close(soc_ket);
 }
