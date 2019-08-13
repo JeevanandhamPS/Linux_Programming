@@ -1,8 +1,8 @@
 /****************************************/
-/* Author	: Jeevanandham P S        */
-/* Date		: 13-aug-2019            */
-/* Filename	: hello.c                 */
-/* Description	: hello_rld           */
+/* Author	: Jeevanandham P S            */
+/* Date		: 13-aug-2019                 */
+/* Filename	: hello.c                   */
+/* Description	: hello_world           */
 /****************************************/
 
 /* Included header file */
