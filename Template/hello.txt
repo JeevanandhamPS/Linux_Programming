@@ -1,0 +1,9 @@
+    
+/****************************************/
+/* Author	: Jeevanandham P S            */
+/* Date		: 13-aug-2019                 */
+/* Filename	: hello.txt                 */
+/* Description	: hello_world           */
+/****************************************/
+
+Write a C program to print a hello world on STDOUT.
